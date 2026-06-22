@@ -1,3 +1,9 @@
+/*
+ Author: Arjun Ravi
+ Date: 12/12/25
+ Program Description: This is a bass/treble booster utilizing a codec to read audio from, then a bass or treble booster applied to the left audio channel,
+ output is processed at real time.
+
 #include "stdio.h"
 #include "usbstk5515.h"
 #include "aic3204.h"
